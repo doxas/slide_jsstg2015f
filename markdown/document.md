@@ -1,35 +1,26 @@
-#### test title
+#### はじめに
 
-paragraparagraparagraparagra*parag*rapppppparagraph
+名前：杉本 雅広（すぎもと まさひろ）
 
-paragraparagraparagraparagra**iparag**rapppppparagraph
-
-paragrapara*grapa*ragraparagra**iparag**rapppppparagraph
-
-paragraph
+運営中： wgld.org, WebGL総本山
 
 ![](sample.png)
 
-paragraph
-
 ---
 
-paragraph
+#### はじめに
 
-paragraph
+まずは、jsstg へ作品を出展してくださった方、そして連動企画となる本勉強会にご参加くださった方、ありがとうございます。
+jsstg 2015 は第二回にあたりますが、今後また第三回も開催できればいいなと思っています。
+今後とも jsstg をよろしくお願いします。
 
-* list
-* list
-* list
-* list
-* list
+#### 本日のテーマ
 
-paragraph
+**マルチプラットフォーム WebGL**
 
----
+jsstg 2015 に出展した「torna-do」の実装を紐解きつつ、モバイル端末でも動作可能な WebGL コンテンツの作成について考えていきます。
 
-paragraph
 
-paragraph
+#### 
 
 
