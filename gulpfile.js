@@ -71,7 +71,6 @@ gulp.task('copy', function() {
 });
 
 gulp.task('watch', function() {
-	gulp.watch([paths.mdDir], ['app']);
 	gulp.watch([paths.cssDir], ['copy']);
 	gulp.watch([paths.jsDir]), ['concatjs'];
 });
