@@ -19,6 +19,13 @@ module.exports = {
 		dest = [];
 		for(i = 0, j = source.length; i < j; i++){
 			switch(true){
+				// captions
+				case (source[i].match(/^--.+-- *$/) != null):
+					k = source[i].match(/--.+--/);
+					l = k[0].replace(/--/g, '');
+					tag = '<span class="capt">';
+					dest[i] = '\t<p><span class="capt">' + l + '</span></p>\n';
+					break;
 				// headers
 				case (source[i].match(/^#{1,6} /) != null):
 					k = source[i].match(/^#{1,6} /);
