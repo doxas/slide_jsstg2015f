@@ -27,12 +27,12 @@ module.exports = {
 					dest[i] = '\t<' + tag + '>' + content + '</' + tag + '>\n';
 					break;
 				// separator
-				case (source[i].match(/^--- ?$/) != null):
+				case (source[i].match(/^--- *$/) != null):
 					dest[i] = '</div>\n<div class="page">\n';
 					break;
 				// image
-				case (source[i].match(/^!\[.?\]\(.+\) ?$/) != null):
-					k = source[i].match(/\[.?\]/);
+				case (source[i].match(/^!\[.*\]\(.+\) *$/) != null):
+					k = source[i].match(/\[.*\]/);
 					k = k[0].replace(/\[|\]/g, '');
 					l = source[i].match(/\(.+\)/);
 					l = l[0].replace(/\(|\)/g, '');
