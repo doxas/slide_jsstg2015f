@@ -88,9 +88,24 @@ strong {
 code {
 	background: #f9f9f9;
 	border: 2px solid silver;
-	border-radius: 3px;
+	border-radius: 5px;
 	color: #666;
 	font-family: consolas, Ricty, Monaco, monospace;
+}
+
+pre {
+	background: #f9f9f9;
+	border: 2px solid silver;
+	border-radius: 5px;
+	color: #666;
+	font-family: consolas, Ricty, Monaco, monospace;
+	line-height: 1.0;
+	margin: 20px 50px 20px 100px;
+	padding: 10px;
+}
+
+pre code {
+	border: 0px solid silver;
 }
 
 .centers {
@@ -122,7 +137,7 @@ code {
 .capt {
 	background-color: #333;
 	border-radius: 5px;
-	color: white;
+	color: #f6f6f6;
 	padding: 0px 15px;
 	display: inline-block;
 }
@@ -265,4 +280,3 @@ label:hover {
 	height: 10px;
 	transition: width 0.5s ease;
 }
-
